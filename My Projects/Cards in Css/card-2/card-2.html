@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order-Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=currency_rupee" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(170,245,248,1) 0%, rgba(248,162,239,0.8) 90% );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            box-shadow: 10px 10px 50px rgb(31, 190, 198);
+        }
+        .card img{
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;   
+        }
+        .textdiv{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           gap: 15px;
+           /* padding: 20px; */
+           width: 75%;
+           text-align: center;
+        }
+        #amountBox{
+            width: 80%;
+            height: 10%;
+            background-color: rgb(147, 254, 218);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+            /* padding-left: 20px; */
+        }
+        #amountBox span{
+           display: flex;
+           flex-direction: column;
+           margin: 15px;
+        }
+        .leftbox{
+        width: fit-content;
+        display: flex;
+        gap: 15px;
+        }
+        
+        .rightbox{
+            width: fit-content;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .textAmountBox{
+           padding-top: 10px;
+        }
+
+        #paymentbtn{
+            width: 80%;
+            height: 9%;
+            background-color: rgb(8, 8, 161);
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            font-style: italic;
+            border-radius: 10px;
+            box-shadow: 0px 10px 50px rgba(0, 0, 0, 19), 0px 6px 6px rgba(0,0,0,0.23);
+        }
+        .cancelbox{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        a{
+            text-decoration: none;
+        }
+        @media (min-width: 400px){
+            #amountBox{
+               flex-direction: row;
+              
+            }
+        }
+        @media (max-width: 399px) {
+            #amountBox{
+                flex-direction: column;
+                 width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/R.7b95c5709a9be7b2e425ce7c4ce578b3?rik=gfMKqw6PruyO2Q&riu=http%3a%2f%2fimages.huffingtonpost.com%2f2016-04-27-1461774826-5621247-cover.png&ehk=1sZJ0lQn3r%2fzSpkqhzGHJVgxGzaj22c8IEwnz1PoBqw%3d&risl=&pid=ImgRaw&r=0" alt="">
+       
+        <div class="textdiv">
+             <h2>
+            Order Summary
+            </h2>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error repellendus quam iusto expedita molestias facere adipisci pariatur tempore omnis?
+            </p>
+        </div>
+
+        <div id="amountBox">
+            <div class="leftbox">
+                 <span class="material-symbols-outlined">
+                currency_rupee
+            </span>
+
+            <div class="textAmountBox">
+                <p>Amount</p>
+                <p>$99.9/year</p>
+            </div>
+            </div>
+
+            <div class="rightbox">
+                <a href="#">Change</a>
+            </div>
+        </div>
+
+        <button id="paymentbtn">
+        Proceed to payment
+        </button>
+
+<div class="cancelbox">
+    <a href="#">Cancel order</a>
+</div>
+
+     </div>
+    </div>
+</body>
+</html>

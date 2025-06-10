@@ -1,0 +1,29 @@
+justify content 
+1.) space between - ist and last element will attached to flex box and all the other elements have space between them.
+2.) space around- all the elements have exact same spaces between them.
+3.) space evenly-
+4.) center,start,end.
+
+Align-Items- corrosponding to cross axis.
+1.)center
+2.)start
+3.)end
+
+Flex-Items
+1.)flex-shrink- in what speed elem will shrink
+2.) flex-grow - in what speed elem will grow
+3.) flex-basis - width of box decided(to set dimensions)
+
+Align-Self
+1.) center,start,end
+
+flex-container
+1.) display - flex;
+2.)flex-direction - row 0r column;
+3.) flex-wrap
+4.) flex-flow;
+5.) justify content
+
+######
+jb flex-direction- column hoti hai; to justify-content - vertical hota hai.
+jb flex-ddirection - row hoti hai, to justify-content - horizontal hota hai.
