@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Creating</title>
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+        <label for="mail">Enter Your E-mail Id:</label>
+        <input type="Email" id="mail" name="mail">
+        <br/>
+        <br/>
+        <label for="phone">Enter Your Phone Number:</label>
+        <input type="tel" name="phone" id="name">
+        <br/>
+        <br/>
+        <label for="occ">Choose your Occupation:</label>
+        <select name="occ" id="occ">
+            <option value="1">Student</option>
+            <option value="2">Professional</option>
+            <option value="3">Other</option>
+        </select>
+        <br>
+        <br>
+    <fieldset>
+        <legend>topic of Interest:</legend>
+
+        <label for="topic">HTML</label>
+        <input type="checkbox" name="topic" id="topic" >
+        <label for="topic">CSS</label>
+        <input type="checkbox" name="topic" id="topic" >
+        <label for="topic">JavaScript</label>
+        <input type="checkbox" name="topic" id="topic" >
+        <br>
+        
+    </fieldset>
+      
+    <label for="textarea1">comment</label>
+    <br>
+    <textarea name="textarea1" id="textarea1" cols="30" rows="10">Text Area</textarea>
+
+    <label for="btn"></label>
+    <input type="button" name="btn" id="btn" value="Register">
+    </form>
+
+
+    <!--Second Form-->
+    <h2>Complex Form</h2>
+<form>
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="mailid">Email:</label>
+    <input type="email" name="mailid" id="mailid">
+    <br>
+    <br>
+    <label for="telephone">Phone:</label>
+    <input type="tel" name="telephone" id="telephone">
+    <br>
+    <br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob">
+    <br>
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="gender" placeholder="female">
+    <label for="gender">female</label>
+    
+    <br>
+    <br>
+    <label for="coun">Country</label>
+    <select name="coun" id="coun">
+        <option value="1">India</option>
+        <option value="2">South Korea</option>
+        <option value="3">Australia</option>
+        <option value="4">United States</option>
+    </select>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend> Address </legend>
+        <label for="add">Street</label>
+        <input type="text" name="add" id="add">
+        <br>
+        <br>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+        <br>
+    <br>
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <br>
+        <br>
+        <label for="code">ZIP code</label>
+        <input type="text" name="code" id="code">
+
+</fieldset>
+
+<fieldset>
+<legend>Other Information</legend>
+<label for="text-field1">Comments:</label>
+<br>
+<br>
+<textarea name="text-field1" id="text-field1" cols="30" rows="10"></textarea>
+
+<label for="btn">I agree to the terms of Service</label>
+<input type="checkbox" name="btn" id="btn">
+</fieldset>
+
+<input type="submit">
+   </form>
+
+
+</body>
+</html>

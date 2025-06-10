@@ -1,0 +1,59 @@
+<!--TRANSITION----Shift from one state to destination state -->
+<!--ANIMATION--- multiple shift from one state to destination state  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: beige;
+            border: 2px solid black;
+            /* transition property width pe lagai hai */
+            transition-property: all;
+            transition-duration: 4s;
+            /* transition-delay: 1s; */
+            transition-timing-function: linear;
+            /* to have transition, we need to do hover or use psuedo classes */
+        }
+        /* psuedo class to perfrom action in transition */
+       .box:hover{
+            width: 1200px;
+            height: 800px;
+            background-color: yellow;
+            border-radius: 100px;
+        }
+
+        .circle{
+            height: 400px;
+            width: 400px;
+            margin: 100px;
+            background-color: rgb(236, 24, 20);
+            border: 2px solid black;
+            /* short-hand notation */
+            /* transition: all 2s ease-in ; */
+            transition: width 2s ease-in, height 3s ease-out;
+        }
+        .circle:hover{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            border: 2px solid blue;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- Transition properties -->
+    </div>
+
+    <div class="circle">
+        <!-- Short-Hand Notation -->
+    </div>
+</body>
+</html>

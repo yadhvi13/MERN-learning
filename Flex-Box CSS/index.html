@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<!--FlexBOx In CSS-->
+<style>
+    .container{
+        background-color: beige;
+        border: 5px solid black;
+        height: 800px;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /*to make responsive without making it look baad(CONDITION- jbtk space available hai)*/
+        /* flex-wrap: wrap-reverse;  */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-flow: column; */
+        justify-content: start;
+        /*it changes according to MAIN-AXIS*/
+        align-items: start;
+        align-content: center;/*to avoid space between elem when its flex wrap*/
+    }
+    .box{
+        /* height: 200px; 
+        width: 200px; */
+        border: 2px solid brown;
+        margin: 4px;
+        padding: 2px;
+    }
+    #box1{
+        background-color: rgba(9, 189, 189, 0.805);
+        order: 500;/*to give order number of flex-items*/
+        /* flex-shrink: 4; */
+        /*BOx-1 will shrink faster than other boxes*/
+        /* flex-grow: 5; */
+        /*first it will take all the space inside flex*/
+        align-self: center;
+    }
+    #box2{
+        background-color: aquamarine;
+        order: 100;
+        flex-grow: 1;
+        align-self: start;
+    }
+    #box3{
+        background-color: rgb(3, 255, 255);
+        order: 50;
+        flex-grow: 1;
+    }
+    #box4{
+        background-color: blanchedalmond;
+        order: 300;
+        flex-grow: 1;
+        /* flex-basis: 400px; */
+    }
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" id="box1">BOX 1</div>
+        <div class="box" id="box2">BOX 2</div>
+        <div class="box" id="box3">BOX 3</div>
+        <div class="box" id="box4">BOX 4</div>
+    </div>
+    
+</body>
+</html>

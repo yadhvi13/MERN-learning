@@ -1,0 +1,20 @@
+/*
+FIXED position - is fixed across the whole window while,
+STICKY position - is stick to the window (In DIVISION), show behaviour in its parent container
+DEFAULT(Static)- its is a by default.
+RELATIVE - poistion relative across the window, bt the gap remained is be maintained.
+ABSOLUTE - position absolute, to closest positined parents, but the gap is filled.(OVERLAPPING)
+*/
+
+/*
+perecntage overall width ka percent hota hai
+*/
+
+/*
+what is physical pixel and logical pixel
+what is PPI and DPI
+
+REM- root element value(root element ki default size = 16 hota hai
+
+whenever we design responsive website we try to less use the absoulte and try to use rem 
+*/

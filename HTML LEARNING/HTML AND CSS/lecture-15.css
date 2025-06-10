@@ -1,0 +1,8 @@
+/*Universal selector---(to remove all the extra padding and margin*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* what is BOX-sizing: box sizing refers to the defination,
+ where all the boxes have same size  */

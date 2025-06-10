@@ -1,0 +1,15 @@
+/*CSS Display property--how to render some element at display
+1.) Inline property
+--(a,span etc)
+--element tries to be in SAME Line
+--jitni content ki width hogi utni hi ye bhi lega, no EXTRA SPACEE
+--No custom width and height apply.
+--no custom margin can apply.
+
+
+2.) Block Property
+--every block element is always in next line
+--defualt bit(extreme left to right)
+-- custom margin and padding
+--- (div,h1,p)
+*/
