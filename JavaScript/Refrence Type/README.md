@@ -14,18 +14,22 @@ ex- let obj = {
 
 2.Arrays- collections of items(pre,non-prem,objects etc tec..)
 #methods of Array
-push- insert at end
-pop-  remove from end
-shift- remove ist item
-unshift- add first item
-slice-
-splice-
-map-
-filter-
-reduce-
-sort
-indexof-
-find--
+#push- insert at end
+#pop-  remove from end
+#shift- remove ist item
+#unshift- add first item
+#slice- jaha se select kroge us index se leke bech ka index tk hi value dega , aur last wala selected index exclude hoga.
+#splice- change content of array (insert,replace,remove) at any place
+#map-
+#filter-
+
+#reduce- let suppose we have ARR=['a','b','c','d']
+-- agr accumulator ko value khudse initialise kri hai EX-'y' toh current value 'a' ko lega
+Aur agr acc ki value initalise nhi rki hai toh wo wo khudse value 'a' lega aur fr curr value 'b' hogi.
+
+#sort
+#indexof-
+#find--
 
 3.Funtion
 
